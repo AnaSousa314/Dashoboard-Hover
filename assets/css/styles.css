@@ -252,11 +252,12 @@ body{
 
 .cardBox .card:hover{
   background: #03a9f4;
+  color: #fff;
 }
 
-.cardBox .card .numbers:hover,
-.cardBox .card .cardName:hover,
-.cardBox .card .iconBox:hover
+.cardBox .card:hover .numbers,
+.cardBox .card:hover .cardName,
+.cardBox .card:hover .iconBox
 {
   color: #fff;
 }
